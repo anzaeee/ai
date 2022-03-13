@@ -131,11 +131,11 @@ if __name__ == '__main__':
         X.location.update({'B': input('Enter state of B (0/1) :')})
         X.location.update({'C': input('Enter state of C (0/1) :')})
     if initial_loc == 'B':
-        X.location.update({'B': input('Enter state of' + initial_loc + ' (0/1): ')})
+        X.location.update({'B': input('Enter state of ' + initial_loc + ' (0/1): ')})
         X.location.update({'A': input('Enter state of A (0/1): ')})
         X.location.update({'C': input('Enter state of C (0/1): ')})
     if initial_loc == 'C':
-        X.location.update({'C': input('Enter state of' + initial_loc + ' (0/1): ')})
+        X.location.update({'C': input('Enter state of ' + initial_loc + ' (0/1): ')})
         X.location.update({'A': input('Enter state of A (0/1): ')})
         X.location.update({'B': input('Enter state of B (0/1): ')})
 
